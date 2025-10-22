@@ -1,0 +1,5 @@
+filename,label,split,speaker_id,duration_sec,sample_rate,md5,original_path,notes
+processed/real/utt_000001.wav,real,train,spk_001,3.00,16000,5d41402abc4b2a76b9719d911017c592,raw/recordings/speaker01_session1.wav,"synthetic / preprocessed"
+processed/fake/utt_000001_f0.wav,fake,train,spk_001,3.00,16000,ad0234829205b9033196ba818f7a872b,processed/real/utt_000001.wav,"pitch-shifted + time-stretch"
+processed/real/utt_000002.wav,real,val,spk_002,2.85,16000,8ad8757baa8564dc136c1e07507f4a98,raw/recordings/speaker02_session1.wav,"recorded / trimmed"
+processed/fake/utt_000010_f1.wav,fake,test,spk_010,3.00,16000,6512bd43d9caa6e02c990b0a82652dca,raw/recordings/speaker10_session1.wav,"spliced segments"
