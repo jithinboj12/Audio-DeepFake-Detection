@@ -1,0 +1,7 @@
+THIS IS A PLACEHOLDER FOR model_best.pth
+
+This repository expects a PyTorch model checkpoint named model_best.pth. Replace this file with the trained model file produced by your training script (for example: torch.save({'epoch': epoch, 'model_state_dict': model.state_dict(), 'optimizer_state_dict': optimizer.state_dict(), 'best_metric': best_metric}, 'model_best.pth')).
+
+Notes:
+- Do not store very large model binaries directly in the git history. Consider using Git LFS (git-lfs) or uploading the trained model as a release asset and updating the README with download instructions.
+- After replacing this placeholder, verify loading with torch.load('model_best.pth') in your evaluation/inference script.
